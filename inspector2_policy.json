@@ -1,0 +1,16 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "inspector2:Enable",
+        "inspector2:Disable",
+        "inspector2:List*",
+        "inspector2:Get*",
+        "inspector2:BatchGet*"
+      ],
+      "Resource": "*"
+    }
+  ]
+}
